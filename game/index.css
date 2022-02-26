@@ -1,0 +1,72 @@
+body {
+  background-color: cyan;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.show-modal {
+  font-family: "Times New Roman", Times, serif;
+  width: 10rem;
+  height: 5rem;
+  font-size: larger;
+  background-color: darkorchid;
+  border-width: 10px;
+  border-radius: 20%;
+  position: relative;
+}
+.hidden {
+  display: none;
+}
+.close-modal {
+  justify-content: flex-end;
+  align-self: flex-end;
+  background-color: gold;
+  position: relative;
+  float: right;
+}
+.modal {
+  margin: auto;
+  height: 20rem;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border: 1rem;
+  z-index: 10;
+  width: 25rem;
+  align-self: center;
+  justify-self: center;
+  top: 1rem;
+  background-color: ghostwhite;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 2rem;
+}
+p {
+  top: 2rem;
+  position: relative;
+  bottom: 1rem;
+  text-align: center;
+}
+.overlay {
+  background-color: black;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 5;
+  margin: 0%;
+  opacity: 0.2;
+}

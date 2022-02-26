@@ -1,0 +1,17 @@
+body{
+    height:100vh;
+    background-image:linear-gradient(red,blue);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+a:link{
+    background-color: blue;
+    color:brown;
+    text-decoration:underline;
+}
+a:hover{
+    background-color: pink;
+    color: rebeccapurple;
+    text-decoration: none;
+
+}
